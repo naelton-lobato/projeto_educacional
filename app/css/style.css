@@ -1,18 +1,7 @@
-@import url('https://fonts.googleapis.com/css2? family = ZCOOL + KuaiLe & display = swap');
 *{
     margin: 0;
     padding: 0;
     
-}
-h1{
-    margin-top: 50px;
-    padding: 20px 0;
-    color: #fff;
-    font-family: 'ZCOOL KuaiLe', cursiva;
-}
-img{
-    width: 90vw;
-    height: 150px;
 }
 .container{
     display: flex;
@@ -22,11 +11,20 @@ img{
     background-color: #606C38;
     height: 100vh;
 }
+h1{
+    padding: 20px 0;
+    color: #fff;
+    font-family: 'ZCOOL KuaiLe', cursiva;
+}
+img{
+    width: 90vw;
+    height: 150px;
+}
 .group-card{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    width: 80vw;
+    width: 90vw;
     height: 600px;
     padding: 20px;
     box-sizing: border-box;
@@ -53,11 +51,12 @@ a{
 .card:hover{
     background-color: #fff;
     color: #000;
-
 }
 
-@media(max-width:800px){
+@media(max-width: 805px){
     .card{
-        margin: 10px auto;
+        margin: 15px 0;
+        width: 65vw;
     }
 }
+
