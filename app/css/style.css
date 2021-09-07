@@ -42,18 +42,24 @@ img{
     line-height: 50px;
     font-size: 25px;
     color: #fff;
-    transition: all 0.5s;
     box-sizing: border-box;
 }
 a{
     text-decoration: none;
 }
 .card:hover{
+    transition: all 0.5s;
     background-color: #fff;
     color: #000;
 }
 
-@media(max-width: 805px){
+@media(max-width: 850px){
+    .container{
+        height: 100%;
+    }
+    .group-card{
+        height: 100%;
+    }
     .card{
         margin: 15px 0;
         width: 65vw;
