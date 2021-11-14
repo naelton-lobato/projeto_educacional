@@ -1,89 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Monoton', cursiva;
+* {
+    box-sizing: border-box;
 }
-.container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: #606C38;
+
+.container {
+    width: 100vw;
     height: 100vh;
 }
-h1{
-    font-family: 'Monoton', cursiva;
-    padding: 20px 0;
-    color: #fff;
-}
-img{
-    width: 90vw;
-    height: 150px;
-}
-.group-card{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    max-width: 70vw;
-    height: auto;
-    padding: 20px;
-    box-sizing: border-box;
-    border-radius: 5px;
-    box-shadow: 0 0 20px #fff;
-    background-color: #FEFAE0;
-}
-.card{
-    box-sizing: border-box;
-    width: 30vw;
-    height: 200px;
-    background-color: #DDA15E;
-    border-radius: 5px;
-    border: 1px solid #000;
+
+.container h1 {
     text-align: center;
-    line-height: 50px;
-    font-size: 25px;
-    color: #fff;
-    box-sizing: border-box;
-    margin-bottom: 20px
 }
 
-a{
+.container .row .col-sm-6 {
+    background-color: #edf2f4;
+    text-align: center;
+    border: solid 1px #fff1e6;
+}
+
+.container .row .col-sm-6 a {
     text-decoration: none;
-}
-.card:hover{
-    transition: all 0.5s;
-    background-color: #fff;
-    color: #000;
+    color: #2b2d42;
 }
 
-.bt{
-    width: 20px;
-    height: 20px;
-    background-color: #000;
-    display: none;
+footer {
+    font-size: 0.8rem;
 }
-footer{
-    margin-top: 20px
-}
-/*-------------------------------------*/
-
-@media(max-width: 850px){
-    .container{
-        height: 100%;
-    }
-    .group-card{
-        height: 100%;
-        align-items: flex-start;
-        justify-content: none
-    }
-    .card{
-        margin: 15px 0;
-        width: 65vw;
-        height: 100px;
-    }
-    .bt{
-        display: block;
-    }
-}
-
