@@ -11,7 +11,7 @@
 }
 main{
     margin: 0 auto;
-    width: 80vw;
+    width: 70vw;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -27,7 +27,7 @@ main{
     flex-direction: column;
     background-color: #DBE8FB;
     cursor: pointer;
-    width: 250px;
+    width: 300px;
     height: 250px;
 }
 .col-sm-6 img{
@@ -44,9 +44,14 @@ footer {
     font-size: 0.8rem;
 }
 
+@media screen and (max-width: 890px){
+    .col-sm-6 {
+        width: 250px;
+    }
+}
 @media screen and (max-width: 768px) {
     main{
-        width: 70vw;
+        width: 80%;
     }
     .col-sm-6 {
         width: 60vw;
