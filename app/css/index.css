@@ -47,7 +47,7 @@ footer {
     color: #f5f3f4;
     text-align: center;
 }
-@media screen and (max-width: 900px){
+@media screen and (max-width: 700px){
     .container {
         width: 100%;
     }
@@ -55,7 +55,7 @@ footer {
         width: 40%;
     }
 }  
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 350px) {
     .container {
         width: 100%;
     }
