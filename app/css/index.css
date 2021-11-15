@@ -55,5 +55,6 @@ footer {
     }
     .col-sm-6 {
         width: 60vw;
+        margin-top: 10px;
     }
 }  
