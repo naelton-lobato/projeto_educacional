@@ -2,17 +2,17 @@
     box-sizing: border-box;
 }
 main {
-    width: 100vw;
+    width: 100%;
 }
 header h1 {
     text-align: center;
 }
 .container{
     margin: 0 auto;
-    width: 70vw;
+    width: 80%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 .card {
     margin-top: 20px;
@@ -24,7 +24,7 @@ header h1 {
     background-color: #f5f3f4;
     border-radius: 10px;
     cursor: pointer;
-    width: 300px;
+    width: 30%;
     height: 250px;
 }
 .card img{
@@ -47,20 +47,20 @@ footer {
     color: #f5f3f4;
     text-align: center;
 }
-@media screen and (max-width: 750px){
+@media screen and (max-width: 900px){
     .container {
-        width: 10vw;
+        width: 100%;
     }
     .card {
-        width: 100vw;
+        width: 40%;
     }
 }  
 @media screen and (max-width: 500px) {
     .container {
-        width: 100vw;
+        width: 100%;
     }
     .card {
-        width: 95vw;
+        width: 85%;
     }
     footer {
         font-size: 0.8rem;
