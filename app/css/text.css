@@ -47,12 +47,13 @@ footer {
     justify-content: center;
 }
 @media screen and (max-width: 600px) {
-    article {
-        width: 90%;
-    }
     article p {
         font-family: 'Slabo 27px', serif;
-        font-size: 1.1rem;
-        line-height: 2rem;
+        font-size: 1rem;
+        line-height: 1.6rem;
+    }
+    footer {
+        margin-top: 15px;
+        font-size: .8rem;
     }
 }
