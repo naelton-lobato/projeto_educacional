@@ -24,10 +24,12 @@ article p {
     text-align: center;
     font-family: 'Arvo', serif;
     font-size: 2rem;
+    color: #5e6472;
 }
 .sub-title {
     font-family: 'Arvo', serif;
     font-size: 1.4rem;
+    color: #5e6472;
 }
 footer {
     position: static;
@@ -43,4 +45,14 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+@media screen and (max-width: 600px) {
+    article {
+        width: 90%;
+    }
+    article p {
+        font-family: 'Slabo 27px', serif;
+        font-size: 1.1rem;
+        line-height: 2rem;
+    }
 }
