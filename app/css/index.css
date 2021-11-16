@@ -7,7 +7,7 @@ section {
     width: 100%;
 }
 header {
-    margin: 20px 0px 30px 0px;
+    margin: 30px 0px 30px 0px;
     display: flex;
     justify-content: space-between;
 }
@@ -18,9 +18,12 @@ header a img{
 }
 header h1{
     margin-right: 20px;
-    text-align: center;
     font-family: 'Arvo', serif;
     font-size: 3rem;
+}
+.title-page {
+    margin-bottom: 25px;
+    text-align: center;
 }
 article {
     margin: 0 auto;
@@ -38,13 +41,17 @@ article {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: #f5f3f4;
+    background-color: #fdfffc;
     border-radius: 10px;
+    box-shadow: 1px 5px 10px #ced4da;
     cursor: pointer;
     text-decoration: none;
     color: #2b2d42;
     position: relative;
     transition: .4s;
+}
+.area:hover {
+    background: #f8ffe5;
 }
 .area img {
     width: 30%;
@@ -66,10 +73,17 @@ footer {
 }
 @media screen and (max-width: 700px) {
     header {
-        margin: 20px 0px 20px 0px;
+        margin: 20px 0px 30px 0px;
     }
-    header .title {
-        font-size: 2.5rem;
+    header a img{
+        width: 50px;
+        height: 50px;
+        margin-left: 15px;
+    }
+    header h1{
+        margin-right: 15px;
+        font-family: 'Arvo', serif;
+        font-size: 2.4rem;
     }
     article {
         gap: 15px 15px;
@@ -81,10 +95,17 @@ footer {
 }  
 @media screen and (max-width: 400px) {
     header {
-        margin: 15px 0px 15px 0px;
+        margin: 10px 0px 10px 0px;
     }
-    header .title {
-        font-size: 2rem;
+    header a img{
+        width: 40px;
+        height: 40px;
+        margin-left: 15px;
+    }
+    header h1{
+        margin-right: 15px;
+        font-family: 'Arvo', serif;
+        font-size: 1.8rem;
     }
     article {
         gap: 15px 15px;
@@ -101,4 +122,4 @@ footer {
         margin-top: 15px;
         font-size: .8rem;
     }
-}  
+}
