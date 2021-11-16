@@ -91,7 +91,6 @@ footer {
     }
     header h1{
         margin-right: 15px;
-        font-family: 'Arvo', serif;
         font-size: 2.4rem;
     }
     article {
@@ -113,8 +112,7 @@ footer {
     }
     header h1{
         margin-right: 15px;
-        font-family: 'Arvo', serif;
-        font-size: 1.8rem;
+        font-size: 1.1rem;
     }
     article {
         gap: 15px 15px;
