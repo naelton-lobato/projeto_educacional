@@ -50,6 +50,7 @@ article img{
     width: 30vw;
     height: auto;
     margin-right: 10px;
+    border: 5px solid #000;
 }
 
 article p {
