@@ -3,10 +3,11 @@
     margin: 0;
     padding: 0;
 }
+
 body {
-    background: #ffeedd3f;
+    background: #ffeedd;
 }
-section {
+.container {
     width: 100%;
 }
 header {
@@ -33,7 +34,7 @@ header h1{
     font-size: 2.5rem;
     font-family: 'Slabo 27px', serif;
 }
-article {
+section {
     margin: 0 auto;
     max-width: 1000px;
     display: flex;
@@ -65,6 +66,7 @@ article {
     width: 30%;
     margin-bottom: 20px;
 }
+
 footer {
     position: static;
     left: 0;
